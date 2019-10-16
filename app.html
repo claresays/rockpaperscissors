@@ -8,7 +8,6 @@
                 let rockpaperscissors = ['Rock','Paper','Scissors'];
                 return rockpaperscissors.random();
             }
-
             function playRound(playerSelection, computerSelection) {
                 if (playerSelection == 'rock'&& computerSelection == 'Paper') {
                     return "You Lose! Paper beats Rock";
@@ -26,7 +25,6 @@
                     return "It's a tie."
                 }
             }
-
             function playerSelection(string) {
                 string = string.toLowerCase();
                 if (string=='rock'||string=='paper'||string=="scissors") {
@@ -35,13 +33,9 @@
                     return "Please select from Rock, Paper, Scissors"
                 }
             }
-
             const computerSelection = computerPlay();
-
             console.log(playRound(playerSelection,computerSelection));
-
             function game() {
-
             }
         </script>
     </body>

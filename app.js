@@ -1,6 +1,7 @@
 let computerScore = 0;
 let playerScore = 0;
 
+
 const rock = document.querySelector('#rock-button');
 const paper = document.querySelector('#paper-button');
 const scissors = document.querySelector('#scissors-button');
