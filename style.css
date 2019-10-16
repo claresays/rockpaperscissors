@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    background-color: thistle;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px auto;
+    font-size: 50px;
+}
+
+body {
+    text-align: center;
+    margin: 10px auto;
+    font-size: 20px;
+}
+
+#choice {
+    margin: 20px auto;
+}
+
+#score {
+    margin: 20px auto;
+
+}
+
+
+.container #buttons {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    margin: 100px auto;
+    text-align: center;
+    font-size: 15px;
+}
